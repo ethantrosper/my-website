@@ -1,0 +1,135 @@
+:root{
+    --headerMargin: 10px;
+    --headerBorder: 2px;
+    --headerPadding: 2px;
+    --boxMargin: 20px;
+    --boxBorder: 4px;
+    --boxPadding: 4px;
+    --rightMargin: 15%;
+    --leftMargin: 15%;
+    --textColor: white;
+    --shadowColor: black;
+    --borderRadius: 10px;
+    --pageFont: Helvetica;
+}
+body{
+    background-image: url("pexels-sami-anas-5641973.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0px;
+    left: 0px;
+    width: 99%;
+    height: 99%;
+}
+.PageHeader{
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-top: var(--headerMargin);
+    margin-bottom: var(--headerMargin);
+    padding: var(--headerPadding);
+    text-align: left;
+    color: var(--textColor);
+    color: white;
+    background-image: linear-gradient(45deg, mediumpurple, lightskyblue, deepskyblue, royalblue );
+    box-shadow: 2px 2px 2px var(--shadowColor);
+    border-radius: var(--borderRadius);
+}
+.SummaryHeader{
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-top: var(--headerMargin);
+    margin-bottom: var(--headerMargin);
+    padding: var(--headerPadding);
+
+}
+.SummaryBox{
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-top: var(--headerMargin);
+    margin-bottom: var(--headerMargin);
+}
+.LanguagesHeader{
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-top: var(--headerMargin);
+    margin-bottom: var(--headerMargin);
+    padding: var(--headerPadding);
+
+}
+.LanguagesBox{
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-top: var(--headerMargin);
+    margin-bottom: var(--headerMargin);
+
+}
+.ToolsHeader{
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-top: var(--headerMargin);
+    margin-bottom: var(--headerMargin);
+    padding: var(--headerPadding);
+
+}
+.ToolsBox{
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-top: var(--headerMargin);
+    margin-bottom: var(--headerMargin);
+
+}
+.PageFooter{
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    margin-bottom: var(--headerMargin);
+    margin-top: 100px;
+    padding: var(--headerPadding);
+    text-align: center;
+    color: var(--textColor);
+    background-image: linear-gradient(45deg, mediumpurple, lightskyblue, deepskyblue, royalblue );
+    box-shadow: 2px 2px 2px var(--shadowColor);
+    border-radius: var(--borderRadius);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
+    grid-template-rows: 100px;
+    place-items:center;
+}
+.Themesection{
+    margin: var(--headerMargin);
+    margin-left: var(--leftMargin);
+    margin-right: var(--rightMargin);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
+    grid-template-rows: 300px;
+    place-items:center;
+}
+.Credits{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+h1{
+    font-family: var(--pageFont);
+    color: var(--textColor);
+}
+h2{
+    font-family: var(--pageFont);
+    color: var(--textColor);
+}
+p{
+    font-size: 20px;
+    font-family: var(--pageFont);
+    color: var(--textColor);
+}
+a:link{
+    text-decoration: none;
+}
+ul{
+    font-family: var(--pageFont);
+    color: var(--textColor);
+}
+img{
+    border-radius: 50%;
+}
