@@ -13,11 +13,12 @@
     --pageFont: Helvetica;
 }
 body{
-    background-image: url("pexels-sami-anas-5641973.jpg");
+    background-image: url("static/pexels-sami-anas-5641973.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-color:darkslategrey;
     top: 0px;
     left: 0px;
     width: 99%;
